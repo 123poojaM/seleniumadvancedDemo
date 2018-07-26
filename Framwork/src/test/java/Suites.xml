@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+  
+    <classes>
+    <listeners>
+    <listener class-name="Utilitypackage.MyListener"></listener>
+    </listeners>
+    
+     <class name="Framworktests.Logintest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+  
+    <classes>
+    <listeners>
+    <listener class-name="Utilitypackage.MyListener"></listener>
+    </listeners>
+    
+     <class name="Framworktests.Registrationtest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

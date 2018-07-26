@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Utilitypackage.MyListener"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="Framworktests.Registrationtest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Framworktests.Registrationtest -->
+      <class name="Framworktests.Logintest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="LogInvalid"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- Framworktests.Logintest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
