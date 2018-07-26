@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17974" started-at="2018-07-24T03:42:35Z" finished-at="2018-07-24T03:42:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17974" started-at="2018-07-24T03:42:35Z" finished-at="2018-07-24T03:42:53Z">
+      <class name="pooja1.Scrolldown">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pooja1.Scrolldown@6767c1fc]" name="beforeTest" is-config="true" duration-ms="17704" started-at="2018-07-24T09:12:35Z" finished-at="2018-07-24T09:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="javascript()[pri:0, instance:pooja1.Scrolldown@6767c1fc]" name="javascript" duration-ms="155" started-at="2018-07-24T09:12:52Z" finished-at="2018-07-24T09:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javascript -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pooja1.Scrolldown@6767c1fc]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-24T09:12:53Z" finished-at="2018-07-24T09:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- pooja1.Scrolldown -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
